@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" th:href="@{/css/board.css}">
+</head>
+<body>
+<div th:insert="common/header.html" id="header"></div>
+<div class="list-container">
+    <div class="list-item">
+        <input type="checkbox" class="list-item-checkbox">
+        <div class="list-item-text">test</div>
+    </div>
+</div>
+<div th:insert="common/footer.html" id="footer"></div>
+</body>
+</html>

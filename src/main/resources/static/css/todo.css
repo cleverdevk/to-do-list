@@ -1,0 +1,17 @@
+.title{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+.list-container{
+    margin-left: 20px;
+}
+.list-item{
+    display: flex;
+}
+.list-item-text{
+    margin-left: 5px;
+}
+body{
+    padding: 10px;
+}
